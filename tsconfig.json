@@ -18,7 +18,8 @@
     "strict": true,
     "noUnusedLocals": true,
     "noUnusedParameters": true,
-    "noFallthroughCasesInSwitch": true
+    "noFallthroughCasesInSwitch": true,
+    "baseUrl": "./src" // Add the base URL here
   },
   "include": ["src"],
   "references": [{ "path": "./tsconfig.node.json" }]
