@@ -1,8 +1,10 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import App from "./App.tsx";
-import "tailwindcss/tailwind.css";
 import { QueryClientProvider, QueryClient } from "@tanstack/react-query";
+
+import "./style/style.css";
+import "tailwindcss/tailwind.css";
 
 const queryClient = new QueryClient();
 

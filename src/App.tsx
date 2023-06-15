@@ -3,7 +3,7 @@ import Header from "./components/Header/header";
 
 const App = () => {
   return (
-    <div className="min-h-[100vh]">
+    <div className="min-h-[100vh] bg-slate-200">
       <Header />
       <CategoryList />
     </div>
