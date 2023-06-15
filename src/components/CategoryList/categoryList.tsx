@@ -6,11 +6,10 @@ const CategoryList = () => {
   const { isLoading, data } = useApiQuery("category");
 
   return (
-    <nav className="container mx-auto max-w-2xl mt-[-2.5em]">
+    <nav className="container mx-auto max-w-[90%] md:max-w-md mt-[-2.5em]">
       <div
-        className={`bg-white rounded drop-shadow h-[80px] flex items-center px-5 flex-wrap font-bold ${
-          isLoading ? "justify-center" : "justify-between"
-        }`}
+        className={`bg-white rounded drop-shadow h-[80px] flex items-center px-5 justify-center sm:justify-between flex-wrap font-bold gap-5 sm:gap-0 
+        ${isLoading ? "justify-center" : "justify-between"}`}
       >
         {isLoading ? (
           <Loader />
